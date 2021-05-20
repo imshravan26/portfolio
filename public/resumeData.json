@@ -1,0 +1,105 @@
+{
+  "main": {
+    "name": "Shravan Chaudhari",
+    "occupation": "FrontEnd Developer",
+    "description": "I love React",
+    "image": "profilepic.jpeg",
+    "bio": "I am freelance frontend web developer. mY main skill is React JS. My ither skills are Next JS, Redux, React context API, Styled Components, Tailwind CSS, Firebase, React Hooks. I use Figma as wireframing tool to design my websites",
+    "contactmessage": "Get in touch with me!",
+    "email": "shravanchaudhari99@gmail.com",
+    "phone": "",
+    "address": {
+      "street": "VMV street",
+      "city": "Amravati",
+      "state": "Maharashtra",
+      "country": "India",
+      "zip": "444604"
+    },
+    "website": "https://www.papareact.com/course",
+    "resumedownload": "/images/SHRAVANCHAUDHARI.pdf",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/shravan.chaudhari.5817/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/shravan-chaudhari-91699a1b6/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/00_sammy_95/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Shravan-chaudhari/",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "GKES High School",
+        "graduated": "March 2021",
+        "description": "Passed out from High School"
+      }
+    ],
+    "work": [
+      {
+        "company": "Freelancer",
+        "title": "Individual freelance web developer",
+        "years": "August 2020 - Present",
+        "description": "Learning, Freelancing, discovering this world of programming and how it is so much useful in the real world"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "NextJs",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "99%"
+      },
+      {
+        "name": "Web Development",
+        "level": "95%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Spotify Clone (React JS)",
+        "category": "",
+        "image": "spotify.jpg",
+        "url": "https://github.com/Shravan-chaudhari/spotify"
+      },
+      {
+        "title": "Amazon Clone (React JS)",
+        "category": "",
+        "image": "amazon.png",
+        "url": "https://github.com/Shravan-chaudhari/amazon-clone/"
+      },
+      {
+        "title": "WhatsApp Clone (Next JS)",
+        "category": "",
+        "image": "whatsapp.jpg",
+        "url": "https://github.com/Shravan-chaudhari/whatsapp-2"
+      }
+    ]
+  }
+}
