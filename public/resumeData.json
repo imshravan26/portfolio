@@ -4,7 +4,7 @@
     "occupation": "FrontEnd Developer",
     "description": "I love React",
     "image": "profilepic.jpeg",
-    "bio": "I am freelance frontend web developer. mY main skill is React JS. My ither skills are Next JS, Redux, React context API, Styled Components, Tailwind CSS, Firebase, React Hooks. I use Figma as wireframing tool to design my websites",
+    "bio": "I am freelance frontend web developer. My main skill is React JS. My ither skills are Next JS, Redux, React context API, Styled Components, Tailwind CSS, Firebase, React Hooks. I use Figma as wireframing tool to design my websites",
     "contactmessage": "Get in touch with me!",
     "email": "shravanchaudhari99@gmail.com",
     "phone": "",
@@ -20,7 +20,7 @@
     "social": [
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/shravan.chaudhari.5817/",
+        "url": "https://www.facebook.com/shravan.chaudhari.90226/",
         "className": "fa fa-facebook"
       },
       {
@@ -30,7 +30,7 @@
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/00_sammy_95/",
+        "url": "https://www.instagram.com/devshravan26/",
         "className": "fa fa-instagram"
       },
       {
@@ -60,23 +60,23 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "100%"
+        "level": "92%"
       },
       {
         "name": "NextJs",
-        "level": "85%"
+        "level": "94%"
       },
       {
-        "name": "Git",
-        "level": "70%"
+        "name": "Redux",
+        "level": "80%"
       },
       {
-        "name": "JavaScript",
-        "level": "99%"
+        "name": "Figma",
+        "level": "98%"
       },
       {
-        "name": "Web Development",
-        "level": "95%"
+        "name": "Tailwind CSS",
+        "level": "90%"
       }
     ]
   },

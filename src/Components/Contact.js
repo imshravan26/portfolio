@@ -42,7 +42,24 @@ const Contact = ({ data }) => {
       </div>
 
       <div className="row">
-        <div className="eight columns">
+        <aside id="Emaildata" className="four columns footer-widgets">
+          <div className="widget widget_contact">
+            <h4>Email and Address</h4>
+            <p className="address">
+              {contactName}
+              <br />
+              {contactEmail}
+              <br />
+              <br />
+              {street} <br />
+              {city}, {state} {zip}
+              <br />
+              <span>{phone}</span>
+            </p>
+          </div>
+        </aside>
+
+        <div id="conform" className="eight columns">
           <form onSubmit={submitForm}>
             <fieldset>
               <div>
@@ -53,7 +70,7 @@ const Contact = ({ data }) => {
                   type="text"
                   defaultValue=""
                   value={name}
-                  size="35"
+                  size="50"
                   id="contactName"
                   name="contactName"
                   onChange={(e) => setName(e.target.value)}
@@ -68,23 +85,10 @@ const Contact = ({ data }) => {
                   type="text"
                   defaultValue=""
                   value={email}
-                  size="35"
+                  size="50"
                   id="contactEmail"
                   name="contactEmail"
                   onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="contactSubject">Subject</label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={subject}
-                  size="35"
-                  id="contactSubject"
-                  name="contactSubject"
-                  onChange={(e) => setSubject(e.target.value)}
                 />
               </div>
 
@@ -93,8 +97,8 @@ const Contact = ({ data }) => {
                   Message <span className="required">*</span>
                 </label>
                 <textarea
-                  cols="50"
-                  rows="15"
+                  cols="15"
+                  rows="2"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
@@ -116,23 +120,6 @@ const Contact = ({ data }) => {
             <br />
           </div>
         </div>
-
-        <aside className="four columns footer-widgets">
-          <div className="widget widget_contact">
-            <h4>Email and Address</h4>
-            <p className="address">
-              {contactName}
-              <br />
-              {contactEmail}
-              <br />
-              <br />
-              {street} <br />
-              {city}, {state} {zip}
-              <br />
-              <span>{phone}</span>
-            </p>
-          </div>
-        </aside>
       </div>
     </section>
   );
